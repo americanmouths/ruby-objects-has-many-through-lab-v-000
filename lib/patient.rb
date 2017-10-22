@@ -1,4 +1,4 @@
-def Patient 
+def Patient
   attr_accessor :name
 
   def initialize(name)
@@ -7,6 +7,6 @@ def Patient
   end
 
   def add_appointment(appointment)
-    
+
 
 end
