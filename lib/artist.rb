@@ -15,4 +15,10 @@ class Artist
     @songs
   end
 
+  def genres
+    @songs.collect do |songs|
+      song.genre
+    end
+  end
+
 end
